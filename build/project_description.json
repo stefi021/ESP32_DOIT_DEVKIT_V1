@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "app-template",
-    "project_version":    "1",
+    "project_version":    "f5cc01f-dirty",
     "project_path":       "/home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1",
     "idf_path":           "/home/stefan/espressifInstalation/esp-idf-v5.3.1",
     "build_dir":          "/home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/build",
@@ -1180,7 +1180,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/main/main.c" ],
+            "sources": [ "/home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/main/main.c", "/home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/main/rgb_led.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

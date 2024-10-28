@@ -1,10 +1,8 @@
--- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
--- Could not use 'git describe' to determine PROJECT_VER.
 -- Building ESP-IDF components for target esp32
 -- Project sdkconfig file /home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/sdkconfig
 -- Compiler supported targets: xtensa-esp-elf
 -- Found Python3: /home/stefan/.espressif/python_env/idf5.3_py3.10_env/bin/python (found version "3.10.12") found components: Interpreter 
--- App "app-template" version: 1
+-- App "app-template" version: f5cc01f-dirty
 -- Adding linker script /home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/build/esp-idf/esp_system/ld/memory.ld
 -- Adding linker script /home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/build/esp-idf/esp_system/ld/sections.ld.in
 -- Adding linker script /home/stefan/espressifInstalation/esp-idf-v5.3.1/components/esp_rom/esp32/ld/esp32.rom.ld
