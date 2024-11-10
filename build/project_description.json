@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "app-template",
-    "project_version":    "8a83877-dirty",
+    "project_version":    "c10a2e0-dirty",
     "project_path":       "/home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1",
     "idf_path":           "/home/stefan/espressifInstalation/esp-idf-v5.3.1",
     "build_dir":          "/home/stefan/Espressif/workspace/ESP32_DOIT_DEVKIT_V1/build",
