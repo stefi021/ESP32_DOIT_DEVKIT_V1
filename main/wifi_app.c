@@ -5,8 +5,6 @@
  *      Author: stefan
  */
 
-
-
 #include "freertos/FreeRTOS.h"
 #include "freertos/event_groups.h"
 #include "freertos/task.h"
@@ -245,6 +243,15 @@ static void wifi_app_task(void *pvParameters)
 
 					break;
 
+				case WIFI_APP_MSG_USER_REQUESTED_STA_DISCONNECT:
+					ESP_LOGI(TAG, "WIFI_APP_MSG_USER_REQUESTED_STA_DISCONNECT");
+
+					g_retry_number = MAX_CONNECTION_RETRIES;
+					ESP_ERROR_CHECK(esp_wifi_disconnect());
+					rgb_led_http_server_started(); ///> todo: rename this status LED to a name more meaningful (to your liking)...
+
+					break;
+
 				case WIFI_APP_MSG_STA_DISCONNECTED:
 					ESP_LOGI(TAG, "WIFI_APP_MSG_STA_DISCONNECTED");
 
@@ -292,3 +299,19 @@ void wifi_app_start(void)
 	// Start the WiFi application task
 	xTaskCreatePinnedToCore(&wifi_app_task, "wifi_app_task", WIFI_APP_TASK_STACK_SIZE, NULL, WIFI_APP_TASK_PRIORITY, NULL, WIFI_APP_TASK_CORE_ID);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
