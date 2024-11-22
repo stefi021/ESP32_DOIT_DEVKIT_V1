@@ -1,13 +1,12 @@
 /*
  * wifi_app.h
  *
- *  Created on: Oct 30, 2024
- *      Author: stefan
+ *  Created on: Oct 17, 2021
+ *      Author: kjagu
  */
 
 #ifndef MAIN_WIFI_APP_H_
 #define MAIN_WIFI_APP_H_
-
 
 #include "esp_netif.h"
 #include "esp_wifi_types.h"
@@ -94,3 +93,31 @@ void wifi_app_call_callback(void);
 int8_t wifi_app_get_rssi(void);
 
 #endif /* MAIN_WIFI_APP_H_ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
