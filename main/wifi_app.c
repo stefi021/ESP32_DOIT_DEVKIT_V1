@@ -1,8 +1,8 @@
 /*
  * wifi_app.c
  *
- *  Created on: Oct 30, 2024
- *      Author: stefan
+ *  Created on: Oct 17, 2021
+ *      Author: kjagu
  */
 
 #include "freertos/FreeRTOS.h"
@@ -299,13 +299,6 @@ void wifi_app_start(void)
 	// Start the WiFi application task
 	xTaskCreatePinnedToCore(&wifi_app_task, "wifi_app_task", WIFI_APP_TASK_STACK_SIZE, NULL, WIFI_APP_TASK_PRIORITY, NULL, WIFI_APP_TASK_CORE_ID);
 }
-
-
-
-
-
-
-
 
 
 
