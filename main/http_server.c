@@ -2,7 +2,7 @@
  * http_server.c
  *
  *  Created on: Oct 20, 2021
- *      Author: kjagu
+ *      Author: stefan
  */
 
 #include "esp_http_server.h"

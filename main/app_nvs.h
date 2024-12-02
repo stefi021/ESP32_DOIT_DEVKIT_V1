@@ -2,7 +2,7 @@
  * app_nvs.h
  *
  *  Created on: Oct 28, 2021
- *      Author: kjagu
+ *      Author: stefan
  */
 
 #ifndef MAIN_APP_NVS_H_

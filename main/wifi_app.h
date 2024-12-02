@@ -2,7 +2,7 @@
  * wifi_app.h
  *
  *  Created on: Oct 17, 2021
- *      Author: kjagu
+ *      Author: stefan
  */
 
 #ifndef MAIN_WIFI_APP_H_

@@ -2,7 +2,7 @@
  * app_nvs.c
  *
  *  Created on: Oct 28, 2021
- *      Author: kjagu
+ *      Author: stefan
  */
 
 #include <stdbool.h>
